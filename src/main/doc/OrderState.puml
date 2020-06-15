@@ -1,0 +1,10 @@
+@startuml
+   title 订单状态机
+
+   [*] --[#red]> 待支付: Event（创建订单）
+   待支付--[#blue]> 待确认收货: Event(支付订单)
+   待确认收货--[#blue]> 确认收货: Event(确认收货)
+
+
+
+@enduml
