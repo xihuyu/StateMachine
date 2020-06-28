@@ -14,7 +14,7 @@ import java.util.Stack;
  */
 public class BracketMatching {
     public static void main(String[] args) {
-        String phrase = "{[()]}";
+        String phrase = "{[(]}";
         System.out.println(matchPhrase(phrase));
     }
 
