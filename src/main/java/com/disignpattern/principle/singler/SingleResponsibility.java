@@ -1,5 +1,9 @@
 package com.disignpattern.principle.singler;
 
+import com.statemachine.rocketmq.server.MQProducer;
+import org.apache.rocketmq.client.impl.MQClientManager;
+import org.apache.rocketmq.client.producer.DefaultMQProducer;
+
 /**
  * @version V1.0
  * @description: 单一职责

@@ -1,5 +1,7 @@
 package com.io.bio;
 
+import org.apache.rocketmq.client.producer.DefaultMQProducer;
+
 import java.io.IOException;
 import java.net.ServerSocket;
 import java.net.Socket;
@@ -17,6 +19,7 @@ public class MyServer {
         ServerSocket s = new ServerSocket(9999);
         Socket ss = s.accept();
 
+        DefaultMQProducer mqProducer = new DefaultMQProducer();
     }
 
 }
